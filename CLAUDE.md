@@ -53,6 +53,10 @@ Every section is a plain `<section id="…">`; edit content in place.
   editorial ("he may be the only DJ in the room…" was cut for exactly that). Never say anything
   at another DJ's expense, not even implicitly ("the billed DJs did not show" was cut: the
   scene is small and reads this page).
+- **The 2013–2025 break is stated, never hidden** (Daniele, 2026-09-29: "onesti e trasparenti,
+  non siamo venditori"). The live history is 2009–2013; the page says so, names the long break
+  (day job, marriage, a family) and presents 2026 as the comeback. No continuous-career phrasing
+  ("twenty years…"), no disclaimer about the tone: the honesty does that job.
 - Past gigs to cite (dates to be found by Daniele, never guessed): the breaking contest he
   played in Varazze (DONE, on the page: OBC – Okult Breaking Contest, 19 May 2012, Molo del Surf, credited "DJ: Danny-T"); opening for DJ Double S at the Ghost; resident at AQA (Friday opener,
   full Saturday night) — which years. Add to "Live" only with the dates.
