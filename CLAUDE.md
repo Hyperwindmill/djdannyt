@@ -47,6 +47,13 @@ Every section is a plain `<section id="…">`; edit content in place.
 - A Blender-rendered visual from `../music-videos` could replace the static hero later;
   the old GLSL shader is NOT the way (low quality — Daniele, 2026-09-29).
 - Custom domain: optional, `CNAME` file when he buys one.
+- **Voice rule (Daniele, 2026-09-29)**: the page speaks in FIRST person, deadpan, his register
+  ("Mistakes included."). Third person only inside the labelled "Short bio — copy and paste
+  it" block, made of verifiable facts, no adjectives. Never write self-praise disguised as
+  editorial ("he may be the only DJ in the room…" was cut for exactly that).
+- Past gigs to cite (dates to be found by Daniele, never guessed): the breaking contest he
+  played in Varazze; opening for DJ Double S at the Ghost; resident at AQA (Friday opener,
+  full Saturday night) — which years. Add to "Live" only with the dates.
 
 ## Publishing
 
