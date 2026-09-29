@@ -24,13 +24,30 @@ site** — this repo lays out, it never invents:
   artwork, not a portrait — it is fine.)
 - **No audio masters and no rendered video in git.** Music is heard through store embeds
   and links; media stays in `../music-production`. Small web-sized images only.
-- **Lazy-correct.** One `index.html`, inline CSS/JS, no build step, no framework, no
-  analytics. Add a tool the second time it is needed, not the first.
+- **Lazy-correct.** One bilingual source, inline CSS, no JS, no framework, no analytics; the
+  only tooling is `build.py` (Python stdlib). Add a tool the second time it is needed, not the first.
 - **Verify, don't recall.** Store links and titles come from the sister repo's canonical
   IDs or the store APIs (`api.deezer.com`, `itunes.apple.com/lookup?upc=`), never from
   memory.
-- **English on the page** (the tracks are English, the audience is global); Italian with
-  Daniele in chat.
+- **Two languages, one source** (decided 2026-09-29): English at `/`, Italian at `/it/`.
+  Promoters and press who book him are Italian; pool DJs and store listeners are not. The
+  Italian is rewritten in his register, never translated word for word ("Mistakes included." →
+  "Errori inclusi.", "Then I got back to work." → "Poi mi sono rimesso al lavoro."). Italian
+  with Daniele in chat.
+
+## How to edit (read before touching any page)
+
+- **Edit `src/index.html` only.** `index.html` and `it/index.html` are GENERATED and say so in
+  their first lines.
+- Every piece of text that differs by language is written `[[english||italiano]]`, side by side,
+  so changing one reminds you of the other. `@/` is the path to the site root (assets, language
+  links). Text that is the same in both languages (names, venues, genres) is written once.
+- `python3 build.py` writes both pages; it fails on an unbalanced marker. The pre-commit hook in
+  `.githooks/` runs it and stages the output, so a commit can never ship a stale page. **On a
+  new clone, enable it once:** `git config core.hooksPath .githooks`.
+- Why not Pug or another template engine: npm and a template language for one page. Why not a
+  JS language toggle: link previews (WhatsApp, Facebook) read the meta tags without running JS,
+  so the Italian link would preview in English.
 
 ## Layout of the page (index.html)
 
@@ -80,6 +97,8 @@ either answer is no, it stays out. Style lives in the graphics, not in the sente
 
 ## Publishing
 
-GitHub Pages serves `main` at https://hyperwindmill.github.io/djdannyt/ — a push is a
-deploy. Check locally first: `python3 -m http.server 8080` in this folder.
+GitHub Pages serves `main` at https://hyperwindmill.github.io/djdannyt/ (Italian:
+`/djdannyt/it/`) — a push is a deploy. Check locally first: `python3 -m http.server 8080` in
+this folder. Stop the server by port (`fuser -k 8080/tcp`), never with `pkill -f` on a pattern
+that also matches the calling shell.
 Commit with the repo-local identity (GitHub noreply, already configured).

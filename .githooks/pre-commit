@@ -1,0 +1,4 @@
+#!/bin/sh
+# Rebuild both language pages from src/index.html and stage them with the commit.
+PY=$(command -v python3 || command -v python) || { echo "pre-commit: python not found" >&2; exit 1; }
+"$PY" build.py >/dev/null && git add index.html it/index.html
