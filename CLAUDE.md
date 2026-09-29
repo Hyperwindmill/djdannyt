@@ -52,7 +52,7 @@ Every section is a plain `<section id="…">`; edit content in place.
   it" block, made of verifiable facts, no adjectives. Never write self-praise disguised as
   editorial ("he may be the only DJ in the room…" was cut for exactly that).
 - Past gigs to cite (dates to be found by Daniele, never guessed): the breaking contest he
-  played in Varazze; opening for DJ Double S at the Ghost; resident at AQA (Friday opener,
+  played in Varazze (FOUND: OBC – Okult Breaking Contest, 19 May 2012, Molo del Surf, Varazze); opening for DJ Double S at the Ghost; resident at AQA (Friday opener,
   full Saturday night) — which years. Add to "Live" only with the dates.
 
 ## Publishing
