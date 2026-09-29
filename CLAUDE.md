@@ -63,8 +63,7 @@ either answer is no, it stays out. Style lives in the graphics, not in the sente
 
 - Real console photo (from Kamo's night, background removal to evaluate): the "Press photos"
   section was removed with the placeholders; bring it back only with real files.
-- Instagram and YouTube channel URLs are not recorded in the sister repo yet: add them
-  to the links row once Daniele gives them (TikTok is `@djdannyt88`).
+- Instagram URL not recorded yet (YouTube is `@djdannytGE`, TikTok is `@djdannyt88`).
 - A Blender-rendered visual from `../music-videos` could replace the static hero later;
   the old GLSL shader is NOT the way (low quality — Daniele, 2026-09-29).
 - **Pressure Zone cover links to its HyperFollow (pre-save) until release day 2026-10-02**:
