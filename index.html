@@ -96,6 +96,10 @@
   .facts dt:first-child { margin-top: 0; }
   .facts dd { margin: 2px 0 0; color: var(--ink); }
   .facts dd.bio { color: var(--muted); font-size: 15px; }
+  .photo { margin: 0; }
+  .two .facts { margin-top: 28px; }
+  .photo img { display: block; width: 100%; height: auto; border-radius: 16px; border: 1px solid var(--line); }
+  .photo figcaption { color: var(--muted); font-size: 13px; margin-top: 8px; }
 
   /* music */
   .embed { border: 0; width: 100%; height: 352px; border-radius: 14px; background: var(--bg-2); }
@@ -173,13 +177,17 @@
     <div>
       <p class="lede">I'm Daniele. I started as a b-boy, then DJed the breaking trainings at the Buridda, the hip hop jams and the AQA Cafè residency. After that, a long break: day job, marriage, a family. Then I got back to work, and this time I make records too.</p>
       <p>My first album, <em>Uncertain Identity</em>, I wrote and directed, and an AI generated it. Since then I make my tracks by hand in Ableton. When AI is involved, it says so.</p>
+      <dl class="facts">
+        <dt>Based in</dt><dd>Genova, Italy</dd>
+        <dt>Plays</dt><dd>Dancehall · dubstep · techno · hip hop · breaks · open format</dd>
+        <dt>Short bio, copy and paste it</dt>
+        <dd class="bio">DJ Danny-T is a DJ and producer from Genova, Italy. B-boy by origin, he DJed breaking trainings, jams and clubs in Genova from 2009 to 2013, and came back to the decks in 2026 after a long break. He plays dancehall, dubstep, techno and hip hop, and since 2026 releases his own music: hand-made in Ableton, or made with AI and declared as such.</dd>
+      </dl>
     </div>
-    <dl class="facts">
-      <dt>Based in</dt><dd>Genova, Italy</dd>
-      <dt>Plays</dt><dd>Dancehall · dubstep · techno · hip hop · breaks · open format</dd>
-      <dt>Short bio, copy and paste it</dt>
-      <dd class="bio">DJ Danny-T is a DJ and producer from Genova, Italy. B-boy by origin, he DJed breaking trainings, jams and clubs in Genova from 2009 to 2013, and came back to the decks in 2026 after a long break. He plays dancehall, dubstep, techno and hip hop, and since 2026 releases his own music: hand-made in Ableton, or made with AI and declared as such.</dd>
-    </dl>
+    <figure class="photo">
+      <img src="assets/photo.jpg" alt="DJ Danny-T at the turntables in DJ Kamo's studio" loading="lazy" width="900" height="1200">
+      <figcaption>DJ Kamo's studio, Genova, September 2026</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -262,6 +270,7 @@
     <a class="chip" href="https://www.youtube.com/@djdannytGE" target="_blank" rel="noopener">YouTube</a>
     <a class="chip" href="https://www.tiktok.com/@djdannyt88" target="_blank" rel="noopener">TikTok</a>
     <a class="chip" href="https://open.spotify.com/artist/210zlGpeVnSE9ojHMKoVNb" target="_blank" rel="noopener">Spotify</a>
+    <a class="chip" href="assets/press-photo.jpg" download>Press photo (JPG)</a>
     <a class="chip" href="assets/banner.jpg" download>Banner for flyers (JPG)</a>
   </div>
 </section>
