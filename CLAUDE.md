@@ -50,6 +50,10 @@ either answer is no, it stays out. Style lives in the graphics, not in the sente
   to the links row once Daniele gives them (TikTok is `@djdannyt88`).
 - A Blender-rendered visual from `../music-videos` could replace the static hero later;
   the old GLSL shader is NOT the way (low quality — Daniele, 2026-09-29).
+- **Pressure Zone cover links to its HyperFollow (pre-save) until release day 2026-10-02**:
+  then swap it to the Spotify album URL (find the ID on the public artist page:
+  `curl -s -A Mozilla/5.0 https://open.spotify.com/artist/210zlGpeVnSE9ojHMKoVNb | grep -oE '/album/[A-Za-z0-9]{22}'`,
+  confirm the title with `https://open.spotify.com/oembed?url=…`). song.link's public API is dead (401).
 - Custom domain: optional, `CNAME` file when he buys one.
 - **Voice rule (Daniele, 2026-09-29)**: the page speaks in FIRST person, deadpan, his register
   ("Mistakes included."). Third person only inside the labelled "Short bio — copy and paste
