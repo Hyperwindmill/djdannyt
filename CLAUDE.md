@@ -34,14 +34,18 @@ site** — this repo lays out, it never invents:
 
 ## Layout of the page (index.html)
 
-Hero (graffiti banner) → who → the sound (lanes) → listen (Spotify embed + store
-buttons) → releases (covers) → live (the scene) → tech rider → press photos → booking.
-Every section is a plain `<section id="…">`; edit content in place.
+**Essential by design** (Daniele, 2026-09-29: "le cose in dubbio, via; informazioni utili,
+overview"): hero (graffiti banner + one-line timeline) → who (two short paragraphs + facts card
+with the copy-paste bio) → music (Spotify embed, store chips, three release cards) → live (a
+dated list, newest first — the 2013–2025 gap shows by itself) → tech rider (three short lists)
+→ booking (mail + chips). Plain headings; the only wordplay kept is his own "Open format,
+strong roots." Before adding anything, ask: is it verified, and does a promoter need it? If
+either answer is no, it stays out. Style lives in the graphics, not in the sentences.
 
 ## Open items
 
-- Real console photo (from Kamo's night, background removal to evaluate) → `assets/`
-  and the "Press photos" section.
+- Real console photo (from Kamo's night, background removal to evaluate): the "Press photos"
+  section was removed with the placeholders; bring it back only with real files.
 - Instagram and YouTube channel URLs are not recorded in the sister repo yet: add them
   to the links row once Daniele gives them (TikTok is `@djdannyt88`).
 - A Blender-rendered visual from `../music-videos` could replace the static hero later;
