@@ -59,6 +59,10 @@ either answer is no, it stays out. Style lives in the graphics, not in the sente
   shapes. On dark backgrounds use `assets/badge.svg` (black monogram on an off-white disc, like a
   record label). Source files: `../music-production/artwork/dannyt-logo.svg` (use) and
   `dannyt-logo-inkscape.svg` (edit).
+- **PINNED — small-size logo (Daniele, 2026-09-29)**: below a certain size the monogram's thin
+  inline gap turns into noise, on the badge too; only large it reads well. Needs a small variant
+  (silhouette without the inline gap, drawn in `dannyt-logo-inkscape.svg`) for favicon, avatars,
+  footer. Not started.
 - Custom domain: optional, `CNAME` file when he buys one.
 - **Voice rule (Daniele, 2026-09-29)**: the page speaks in FIRST person, deadpan, his register
   ("Mistakes included."). Third person only inside the labelled "Short bio — copy and paste
