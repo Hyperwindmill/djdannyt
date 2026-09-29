@@ -50,7 +50,9 @@ Every section is a plain `<section id="…">`; edit content in place.
 - **Voice rule (Daniele, 2026-09-29)**: the page speaks in FIRST person, deadpan, his register
   ("Mistakes included."). Third person only inside the labelled "Short bio — copy and paste
   it" block, made of verifiable facts, no adjectives. Never write self-praise disguised as
-  editorial ("he may be the only DJ in the room…" was cut for exactly that).
+  editorial ("he may be the only DJ in the room…" was cut for exactly that). Never say anything
+  at another DJ's expense, not even implicitly ("the billed DJs did not show" was cut: the
+  scene is small and reads this page).
 - Past gigs to cite (dates to be found by Daniele, never guessed): the breaking contest he
   played in Varazze (DONE, on the page: OBC – Okult Breaking Contest, 19 May 2012, Molo del Surf, credited "DJ: Danny-T"); opening for DJ Double S at the Ghost; resident at AQA (Friday opener,
   full Saturday night) — which years. Add to "Live" only with the dates.
