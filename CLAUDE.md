@@ -54,6 +54,11 @@ either answer is no, it stays out. Style lives in the graphics, not in the sente
   then swap it to the Spotify album URL (find the ID on the public artist page:
   `curl -s -A Mozilla/5.0 https://open.spotify.com/artist/210zlGpeVnSE9ojHMKoVNb | grep -oE '/album/[A-Za-z0-9]{22}'`,
   confirm the title with `https://open.spotify.com/oembed?url=…`). song.link's public API is dead (401).
+- **Logo rule (2026-09-29)**: the DT monogram is drawn black-on-light (its thin inline is a gap, not
+  a stroke). NEVER invert it to white: on dark it becomes white-black-white and reads as two
+  shapes. On dark backgrounds use `assets/badge.svg` (black monogram on an off-white disc, like a
+  record label). Source files: `../music-production/artwork/dannyt-logo.svg` (use) and
+  `dannyt-logo-inkscape.svg` (edit).
 - Custom domain: optional, `CNAME` file when he buys one.
 - **Voice rule (Daniele, 2026-09-29)**: the page speaks in FIRST person, deadpan, his register
   ("Mistakes included."). Third person only inside the labelled "Short bio — copy and paste
