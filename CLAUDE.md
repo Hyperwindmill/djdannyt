@@ -15,6 +15,13 @@ site** — this repo lays out, it never invents:
 - `docs/release-status.md` — what is live and what is in flight: the releases section of
   the page mirrors it, never the other way round.
 
+## Public repo: nothing unapproved leaves this machine
+
+This repo is PUBLIC, so every pushed branch is public too, not just `main`. Material that is
+not approved yet (a photo someone must OK, a draft text) stays on a LOCAL branch and is never
+pushed until Daniele confirms. (2026-09-29: the press-photo branch was pushed by mistake and
+removed from GitHub.)
+
 ## Philosophy (inherited, not negotiable)
 
 - **AI transparency is the strategy.** The AI-made releases are declared as such, the
