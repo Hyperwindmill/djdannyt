@@ -73,10 +73,11 @@ either answer is no, it stays out. Style lives in the graphics, not in the sente
 - Instagram URL not recorded yet (YouTube is `@djdannytGE`, TikTok is `@djdannyt88`).
 - A Blender-rendered visual from `../music-videos` could replace the static hero later;
   the old GLSL shader is NOT the way (low quality — Daniele, 2026-09-29).
-- **Pressure Zone cover links to its HyperFollow (pre-save) until release day 2026-10-02**:
-  then swap it to the Spotify album URL (find the ID on the public artist page:
-  `curl -s -A Mozilla/5.0 https://open.spotify.com/artist/210zlGpeVnSE9ojHMKoVNb | grep -oE '/album/[A-Za-z0-9]{22}'`,
-  confirm the title with `https://open.spotify.com/oembed?url=…`). song.link's public API is dead (401).
+- **Pressure Zone cover links to Spotify since release day (2026-10-02)**: track URL
+  `open.spotify.com/track/10Wnomx9CvGGJNzr7hBxVF`, given by Daniele (not verified from here:
+  this cloud env blocks open.spotify.com). For the next release, same swap on release day; find
+  the ID on the public artist page (`curl -s -A Mozilla/5.0 https://open.spotify.com/artist/210zlGpeVnSE9ojHMKoVNb | grep -oE '/album/[A-Za-z0-9]{22}'`)
+  or ask him for the share link. song.link's public API is dead (401).
 - **Logo rule (2026-09-29)**: the DT monogram is drawn black-on-light (its thin inline is a gap, not
   a stroke). NEVER invert it to white: on dark it becomes white-black-white and reads as two
   shapes. On dark backgrounds use `assets/badge.svg` (black monogram on an off-white disc, like a
