@@ -15,6 +15,13 @@ site** — this repo lays out, it never invents:
 - `docs/release-status.md` — what is live and what is in flight: the releases section of
   the page mirrors it, never the other way round.
 
+## Public repo: nothing unapproved leaves this machine
+
+This repo is PUBLIC, so every pushed branch is public too, not just `main`. Material that is
+not approved yet (a photo someone must OK, a draft text) stays on a LOCAL branch and is never
+pushed until Daniele confirms. (2026-09-29: the press-photo branch was pushed by mistake and
+removed from GitHub.)
+
 ## Philosophy (inherited, not negotiable)
 
 - **AI transparency is the strategy.** The AI-made releases are declared as such, the
@@ -55,8 +62,10 @@ site** — this repo lays out, it never invents:
 overview"): hero (graffiti banner + one-line timeline) → who (two short paragraphs + facts card
 with the copy-paste bio) → music (Spotify embed, store chips, three release cards) → live (a
 dated list, newest first — the 2013–2025 gap shows by itself) → tech rider (three short lists)
-→ booking (mail + chips). Plain headings; the only wordplay kept is his own "Open format,
-strong roots." Before adding anything, ask: is it verified, and does a promoter need it? If
+→ booking (mail + chips). Plain headings; the only tagline kept is his own "Open format,
+hip hop background." (2026-10-07: was "strong roots", cut as self-praise; "background" says
+how he mixes, so a scratch on an open-format night surprises nobody — "roots" would be an
+identity claim again). Before adding anything, ask: is it verified, and does a promoter need it? If
 either answer is no, it stays out. Style lives in the graphics, not in the sentences.
 
 ## Open items
@@ -66,10 +75,11 @@ either answer is no, it stays out. Style lives in the graphics, not in the sente
 - Instagram URL not recorded yet (YouTube is `@djdannytGE`, TikTok is `@djdannyt88`).
 - A Blender-rendered visual from `../music-videos` could replace the static hero later;
   the old GLSL shader is NOT the way (low quality — Daniele, 2026-09-29).
-- **Pressure Zone cover links to its HyperFollow (pre-save) until release day 2026-10-02**:
-  then swap it to the Spotify album URL (find the ID on the public artist page:
-  `curl -s -A Mozilla/5.0 https://open.spotify.com/artist/210zlGpeVnSE9ojHMKoVNb | grep -oE '/album/[A-Za-z0-9]{22}'`,
-  confirm the title with `https://open.spotify.com/oembed?url=…`). song.link's public API is dead (401).
+- **Pressure Zone cover links to Spotify since release day (2026-10-02)**: track URL
+  `open.spotify.com/track/10Wnomx9CvGGJNzr7hBxVF`, given by Daniele (not verified from here:
+  this cloud env blocks open.spotify.com). For the next release, same swap on release day; find
+  the ID on the public artist page (`curl -s -A Mozilla/5.0 https://open.spotify.com/artist/210zlGpeVnSE9ojHMKoVNb | grep -oE '/album/[A-Za-z0-9]{22}'`)
+  or ask him for the share link. song.link's public API is dead (401).
 - **Logo rule (2026-09-29)**: the DT monogram is drawn black-on-light (its thin inline is a gap, not
   a stroke). NEVER invert it to white: on dark it becomes white-black-white and reads as two
   shapes. On dark backgrounds use `assets/badge.svg` (black monogram on an off-white disc, like a
