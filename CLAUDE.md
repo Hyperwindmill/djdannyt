@@ -70,8 +70,10 @@ either answer is no, it stays out. Style lives in the graphics, not in the sente
 
 ## Open items
 
-- Real console photo (from Kamo's night, background removal to evaluate): the "Press photos"
-  section was removed with the placeholders; bring it back only with real files.
+- Press photo: DONE 2026-10-07, approved by DJ Kamo. Taken at Muvid Multimedia (his studio),
+  September 2026; `assets/photo.jpg` (900×1200) is the right column of "Who",
+  `assets/press-photo.jpg` (2000×2667) is the download chip in Booking. Both EXIF/GPS-free.
+  No separate "Press photos" section: one photo, where it is read.
 - Instagram URL not recorded yet (YouTube is `@djdannytGE`, TikTok is `@djdannyt88`).
 - A Blender-rendered visual from `../music-videos` could replace the static hero later;
   the old GLSL shader is NOT the way (low quality — Daniele, 2026-09-29).
