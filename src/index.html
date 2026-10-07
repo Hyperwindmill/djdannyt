@@ -267,6 +267,24 @@
         color: var(--muted);
         font-size: 15px;
       }
+      .photo {
+        margin: 0;
+      }
+      .two .facts {
+        margin-top: 28px;
+      }
+      .photo img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 16px;
+        border: 1px solid var(--line);
+      }
+      .photo figcaption {
+        color: var(--muted);
+        font-size: 13px;
+        margin-top: 8px;
+      }
 
       /* music */
       .embed {
@@ -523,7 +541,6 @@
               l'ha generato un'AI. Da allora le tracce le produco direttamente
               io. Quando c'entra l'AI, c'è scritto.]]
             </p>
-          </div>
           <dl class="facts">
             <dt>[[Based in||Base]]</dt>
             <dd>Genova[[, Italy||]]</dd>
@@ -549,6 +566,20 @@
               oppure fatta con l'AI e dichiarata come tale.]]
             </dd>
           </dl>
+          </div>
+          <figure class="photo">
+            <img
+              src="@/assets/photo.jpg"
+              alt="[[DJ Danny-T at the turntables in DJ Kamo's studio||DJ Danny-T ai giradischi nello studio di DJ Kamo]]"
+              loading="lazy"
+              width="900"
+              height="1200"
+            />
+            <figcaption>
+              [[Muvid Multimedia, DJ Kamo's studio, Genova, September 2026||Muvid
+              Multimedia, lo studio di DJ Kamo, Genova, settembre 2026]]
+            </figcaption>
+          </figure>
         </div>
       </section>
 
@@ -801,6 +832,9 @@
             target="_blank"
             rel="noopener"
             >Spotify</a
+          >
+          <a class="chip" href="@/assets/press-photo.jpg" download
+            >[[Press photo (JPG)||Foto stampa (JPG)]]</a
           >
           <a class="chip" href="@/assets/banner.jpg" download
             >[[Banner for flyers (JPG)||Banner per i flyer (JPG)]]</a
