@@ -62,8 +62,10 @@ removed from GitHub.)
 overview"): hero (graffiti banner + one-line timeline) → who (two short paragraphs + facts card
 with the copy-paste bio) → music (Spotify embed, store chips, three release cards) → live (a
 dated list, newest first — the 2013–2025 gap shows by itself) → tech rider (three short lists)
-→ booking (mail + chips). Plain headings; the only wordplay kept is his own "Open format,
-strong roots." Before adding anything, ask: is it verified, and does a promoter need it? If
+→ booking (mail + chips). Plain headings; the only tagline kept is his own "Open format,
+hip hop background." (2026-10-07: was "strong roots", cut as self-praise; "background" says
+how he mixes, so a scratch on an open-format night surprises nobody — "roots" would be an
+identity claim again). Before adding anything, ask: is it verified, and does a promoter need it? If
 either answer is no, it stays out. Style lives in the graphics, not in the sentences.
 
 ## Open items
